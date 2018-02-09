@@ -17,4 +17,14 @@ class RomanNumbersSpec extends ObjectBehavior
     {
         $this->convert(1)->shouldReturn('I');
     }
+
+    function it_convert_number_2()
+    {
+        $this->convert(2)->shouldReturn('II');
+    }
+
+    function it_convert_number_3()
+    {
+        $this->convert(3)->shouldReturn('III');
+    }
 }
