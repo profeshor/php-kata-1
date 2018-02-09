@@ -17,6 +17,26 @@ class RomanNumbers
             return 'III';
             break;
 
+          case 4:
+            return 'IV';
+            break;
+
+          case 5:
+            return 'V';
+            break;
+
+          case 6:
+            return 'VI';
+            break;
+
+          case 7:
+            return 'VII';
+            break;
+
+          case 8:
+            return 'VIII';
+            break;
+
           default:
             # code...
             break;
